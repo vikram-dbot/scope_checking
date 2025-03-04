@@ -1,7 +1,7 @@
 from openai import OpenAI
 import base64
 openai = OpenAI(
-    api_key="tigB029ct3yTUkqtvI1gNsdXtEJ8VqeR",
+    api_key="--YOUR API KEY--",
     base_url="https://api.deepinfra.com/v1/openai"
 )
 def encode_image(image_path):
